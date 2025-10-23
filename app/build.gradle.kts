@@ -25,7 +25,8 @@ android {
 
     defaultConfig {
         applicationId = appPackageName
-
+        //使直接窗口build apk打包成的文件名生效
+        base.archivesName.set("HMA-V${defaultConfig.versionName}")
 
     }
 
