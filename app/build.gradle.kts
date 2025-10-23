@@ -25,6 +25,8 @@ android {
 
     defaultConfig {
         applicationId = appPackageName
+
+
     }
 
     buildFeatures {
